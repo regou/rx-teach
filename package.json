@@ -1,0 +1,12 @@
+{
+  "name": "rx-teach",
+  "version": "1.0.0",
+  "description": "公司rx教学snippets",
+  "main": "index.js",
+  "repository": "https://github.com/regou/rx-teach.git",
+  "author": "regou <admin@regou.me>",
+  "license": "MIT",
+  "dependencies": {
+    "rxjs": "^5.0.0-rc.3"
+  }
+}
