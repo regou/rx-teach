@@ -8,7 +8,7 @@ const Rx = require('rxjs/Rx');
 
 var result$ = new Rx.Observable(function (observer) {
 	let timmer = setInterval(function () {
-		observer.next(Math.random());
+		observer.next(Math.random() * 10);
 	},200);
 	//Throw error
 	//observer.error(err);
