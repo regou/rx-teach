@@ -2,11 +2,38 @@
 # yarn lockfile v1
 
 
+axios@^0.15.2:
+  version "0.15.2"
+  resolved "http://registry.npm.taobao.org/axios/download/axios-0.15.2.tgz#496f50980b2ce1ad2e195af93c2d03b4d035e90d"
+  dependencies:
+    follow-redirects "0.0.7"
+
+debug@^2.2.0:
+  version "2.3.3"
+  resolved "http://registry.npm.taobao.org/debug/download/debug-2.3.3.tgz#40c453e67e6e13c901ddec317af8986cda9eff8c"
+  dependencies:
+    ms "0.7.2"
+
+follow-redirects@0.0.7:
+  version "0.0.7"
+  resolved "http://registry.npm.taobao.org/follow-redirects/download/follow-redirects-0.0.7.tgz#34b90bab2a911aa347571da90f22bd36ecd8a919"
+  dependencies:
+    debug "^2.2.0"
+    stream-consume "^0.1.0"
+
+ms@0.7.2:
+  version "0.7.2"
+  resolved "http://registry.npm.taobao.org/ms/download/ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765"
+
 rxjs@^5.0.0-rc.3:
   version "5.0.0-rc.3"
   resolved "http://registry.npm.taobao.org/rxjs/download/rxjs-5.0.0-rc.3.tgz#d8bc390d83277846b2d2afa1acf3c5f4f114a8d5"
   dependencies:
     symbol-observable "^1.0.1"
+
+stream-consume@^0.1.0:
+  version "0.1.0"
+  resolved "http://registry.npm.taobao.org/stream-consume/download/stream-consume-0.1.0.tgz#a41ead1a6d6081ceb79f65b061901b6d8f3d1d0f"
 
 symbol-observable@^1.0.1:
   version "1.0.4"
