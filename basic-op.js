@@ -12,9 +12,9 @@ const Rx = require('rxjs/Rx');
 // 	}
 // });
 
-var result$ = Rx.Observable.range(0,500);
+var source$ = Rx.Observable.range(0,500);
 
-var multipleOfTen$ = result$
+var multipleOfTen$ = source$
 	.filter((val)=>val % 10 === 0)
 	//.scan((acc, one, idx) => acc + one, 0);
 
