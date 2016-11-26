@@ -14,7 +14,7 @@ var userInfo$ = users$
 
 
 userInfo$.subscribe(function (info) {
-	console.log(info.data);
+	console.log(info.data.bio);
 },function (err) {
 	console.error(err);
 });
